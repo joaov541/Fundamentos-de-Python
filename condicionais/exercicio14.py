@@ -1,0 +1,12 @@
+#14) Faça um programa receba dois valores e imprima qual é o maior número digitado.
+
+numero1 = int(input("Digite o primeiro número: "))
+numero2 = int(input("Digite o segundo número: "))
+
+if numero1 > numero2:
+    print("O maior número é:", numero1)
+else:
+    if numero2 > numero1:
+        print("O maior número é:", numero2)
+    else:
+        print("Os números são iguais.")
